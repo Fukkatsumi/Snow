@@ -1,0 +1,12 @@
+<svg id="menu_icon" data-name="menu icon" xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #191919;
+      }
+    </style>
+  </defs>
+  <rect id="_3" data-name="3" class="cls-1" y="14" width="20" height="2"/>
+  <rect id="_2" data-name="2" class="cls-1" y="7" width="20" height="2"/>
+  <rect id="_1" data-name="1" class="cls-1" width="20" height="2"/>
+</svg>
