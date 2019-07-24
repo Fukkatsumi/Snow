@@ -19,7 +19,7 @@ nav li {
     text-decoration: none;
 }
 
-#logo {
+li.logo {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 100px;
@@ -38,6 +38,28 @@ header {
 
 section {
     background-color: #f6f6f6;
+    text-align: left;
+    height: 300px;
+}
+
+section img {
+    position: center;
+    padding-top: 20px;
+}
+
+.left_column {
+    font-size: 35px;
+    float: left;
+    padding: 5em;
+}
+
+.left_column p {
+    margin-top: -80px;
+    margin-left: -40px;
+}
+
+.right_column {
+    padding: 5em;
 }
 
 article {
