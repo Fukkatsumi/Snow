@@ -72,6 +72,7 @@ article #Numbers{
     padding-left: 8em;
     color: #ffffff;
     line-height: 1.8;
+    overflow: auto;
     width: 100%;
     height: 258px;
 }
@@ -79,6 +80,7 @@ article #Numbers{
 div.column {
     float: left;
     padding-top: 6em;
+    padding-bottom: 5em;
 }
 
 div.icon {
@@ -89,6 +91,31 @@ div.icon {
 div.text {
     float: right;
     margin-right: 4em;
+}
+
+#Contact {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+#Contact h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    background-color: #252525;
+    color: #ffffff;
+    padding: 14px 25px;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #000000;
 }
 
 footer {
