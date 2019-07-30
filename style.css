@@ -17,12 +17,18 @@ nav ul {
 
 nav li {
     display: block;
+    float: left;
     text-decoration: none;
 }
 
+nav li:last-child {
+    padding-top: 2.5em;
+    padding-right: 5em;
+}
+
 li.logo {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 2em;
+    margin-bottom: 2em;
     padding-left: 100px;
 }
 
@@ -41,7 +47,6 @@ section {
 
 #About{
     background-color: #f6f6f6;
-
     margin-top: 1em;
     text-align: left;
 }
