@@ -41,29 +41,32 @@ section {
 
 #About{
     background-color: #f6f6f6;
+
+    margin-top: 1em;
     text-align: left;
 }
 
 #About img {
-    position: center;
-    padding-top: 20px;
+    padding-top: 1em;
+}
+
+#About .column {
+    line-height: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: -1em;
 }
 
 .left_column {
-    font-size: 35px;
     float: left;
-    padding: 5em;
-    line-height: 1.5em;
-}
-
-.left_column p {
-    margin-top: -80px;
-    margin-left: -40px;
+    font-size: 35px;
+    margin-top: -0.5em;
+    padding-bottom: 3em;
 }
 
 .right_column {
-    padding: 5em;
-    line-height: 1.5em;
+    padding-right: 4em;
+    padding-left: 4em;
     color: #696969;
 }
 
@@ -77,16 +80,16 @@ section {
     overflow: auto;
 }
 
-div.column {
+#Numbers div.column {
     float: left;
 }
 
-div.icon {
+#Numbers div.icon {
     float: left;
     padding-right: 1.5em;
 }
 
-div.text {
+#Numbers div.text {
     float: right;
     margin-right: 4em;
 }
